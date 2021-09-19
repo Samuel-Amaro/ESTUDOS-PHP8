@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Operações Aritméticas</h2>
+
+    <form action="programa.php" method="post">
+        <label for="operacao">Escolha Uma Operação Artimetica Abaixo:</label>
+        <select name="operacoes" id="operacoes">
+            <option name="operacao" value="soma">Soma</option>
+            <option name="operacao" value="subtracao">Subtração</option>
+            <option value="multiplicacao" name="operacao" >Multiplicação</option>
+            <option value="divisao" name="operacao">Divisão</option>
+        </select>
+        </br>
+        <label for="numero01">Informe o operando 01:</label>
+        <input type="number" name="numero01" id="numero01" min="1">
+        </br>
+        <label for="numero02">Informe o operando 02:</label>
+        <input type="number" name="numero02" id="numero02" min="1">
+        </br>
+        <input type="submit" value="Calcular">
+    </form>
+
+</body>
+</html>
