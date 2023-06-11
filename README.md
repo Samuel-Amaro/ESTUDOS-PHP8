@@ -1,6 +1,6 @@
-# 🖥️ Exercícios resolvidos ✏️
+# Estudos Sobre Linguagem de Programação PHP 8 É 🖥️ Exercícios resolvidos ✏️
 
-Exercícios de diversas categorias, que foram solucionados utilizando uma linguagem de programação e conceitos relacionados a programação de computadores.
+Estudos sobre a linguagem PHP 8 puro com, exercícios de diversas categorias, que foram solucionados utilizando uma linguagem de programação e conceitos relacionados a programação de computadores.
 Estes exercícios são muito aleatórios e não seguem uma linha de categoria. 
 Estes exercícios foram solucionados utilizando uma linguagem de programação, o PHP 8.0.0, com o objetivo de afirmar os conhecimentos na linguagem e entender seu funcionamento. 
 

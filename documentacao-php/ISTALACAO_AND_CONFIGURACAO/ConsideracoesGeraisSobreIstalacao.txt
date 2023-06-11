@@ -1,0 +1,19 @@
+# CONSIDERAÇÕES GERAIS SOBRE INSTALAÇÃO
+
+  - Antes de começar a instalar o PHP, primeiro você deve saber o que você deseja fazer com ele. Existem três principais formas de se usar o PHP, como descrito na seção O que o PHP pode fazer? do manual:
+
+    - Websites e aplicações web (script do lado do servidor)
+
+    - Scripts para linha de comando
+
+    - Aplicações de Desktop (GUI)
+  
+  - Para a primeira forma, e mais comum, você precisa de três coisas: o prório PHP, um servidor web e um cliente (browser) web. Você provavelmente já tem um browser, e dependendo da configuração do seu sistema operacional, vocêo pode tambem ter um servidor web (Ex.: Apache no Linux e MacOS X; IIS no Windows). Você também pode alugar um host em uma companhia qualquer. Dessa maneira, você não precisa configurar nada por conta própria, apenas escrever os seus scripts PHP, enviar (upload) para o servidor que você alugou, e ver os resultados no seu browser.
+
+  - No caso de você instalar o servidor e o PHP por contra própria, você tem duas escolhas para o método de conexão do PHP com o servidor. Para muitos servidores o PHP tem uma interface direta de módulo (também chamada de SAPI). Entre esses servidores estão Apache, Microsoft Internet Information Server, Netscape e iPlanet. Muitos outros servidores têm suporte para ISAPI, a interface de módulo da Microsoft (OmniHTTPd por exemplo). Se o PHP não tiver suporte de módulo para o seu servidor web, você também pode usá-lo como processador CGI ou FastCGI. Isso significar configurar seu servidor para usar executáveis CGI do PHP para processar todas as requisições a arquivos PHP no servidor.
+
+  - Se você também estiver interessado em usar o PHP para criar scripts em linha de comandos (Ex.: criar scripts que geram imagens enquanto estão offline, ou processar arquivos de texto dependendo de alguns argumentos que você passar ao script), você pode precisar do executável de linha de comando. 
+
+  - Com o PHP, você também pode criar aplicações para desktop com interface gráfica (GUI) usando a extenção PHP-GTK. Isso é uma abordagem completamente diferente da criação de páginas web, já que a saída não é em HTML, mas o manuseio de janelas e objetos dentro delas. 
+
+  - Por enquanto, essa seção trata da instalação do PHP em servidores web no Unix e Windows como módulos dos servidores e executáveis CGI.
